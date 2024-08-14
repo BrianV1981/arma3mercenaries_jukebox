@@ -1,6 +1,5 @@
 # **arma3mercenaries Jukebox Script**
-
-
+![arma3mercenaries_v1.webp](arma3mercenaries_v1.webp)
 
                      __..-----')
          ,.--._ .-'_..--...-'
@@ -33,6 +32,7 @@
     (_ ""---....___                                     __...--"" _)
       """--...  ___"""""-----......._______......----"""     --"""
                     """"       ---.....   ___....----
+
 ## Multiplayer and Dedicated Server Jukebox Script
 <details>
   <summary>Overview</summary>
