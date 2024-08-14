@@ -108,14 +108,17 @@
        ```
 
   4. **Optional Looping:**
-     - The script that loops the music is optional, allowing players to use the radio interface to pick the songs they want to listen to.
+     - The script **arma3mercenaries_playRandomTracks.sqf** that loops the music is optional. Removing this step will allow players to just use the radio interface to pick the songs they want to listen to.
+
+     - skip this step of include the following in your `init.sqf` file if you want an even lighter weight version.
+       ```sqf
+       execVM "arma3mercenaries/jukebox/arma3mercenaries_playRandomTracks.sqf";
+       ```
 
 </details>
 
 <details>
   <summary>Important Notes</summary>
-
-  // File: arma3mercenaries/jukebox/arma3mercenaries_jukeboxSounds.hpp
 
   - **Mute Button**: The mute button currently plays a silent track as a workaround until event handlers can be managed more effectively.
   - **Event Handler**: The event handler plays a random track when it detects that a song has ended. This ensures continuous music playback.
