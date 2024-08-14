@@ -37,7 +37,6 @@
 <details>
   <summary>Overview</summary>
 
-  // File: arma3mercenaries/jukebox/arma3mercenaries_jukebox_customInterface.hpp
 
   The Arma3Mercenaries Jukebox Script is a simple, lightweight, and easy-to-incorporate system designed to bring customizable music playback to your Arma 3 missions. It allows players to interact with a custom radio interface, pick songs, or listen to randomly selected tracks from a playlist.
 
@@ -47,8 +46,6 @@
 
 <details>
   <summary>Features</summary>
-
-  // File: arma3mercenaries/jukebox/arma3mercenaries_jukebox_customInterface.hpp
 
   - **Custom Radio Interface**: Players can select specific tracks to play using a straightforward and accessible interface.
   - **Mute Functionality**: The mute button plays a silent track as a workaround due to the use of event handlers that play a random track if a song ends.
@@ -60,8 +57,6 @@
 
 <details>
   <summary>Script Descriptions</summary>
-
-  // File: arma3mercenaries/jukebox/arma3mercenaries_jukeboxGUIDefinitions.hpp
 
   #### 1. `arma3mercenaries_jukebox_customInterface.hpp`
 
